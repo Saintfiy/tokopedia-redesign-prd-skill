@@ -1,0 +1,25 @@
+{
+  "produk": [
+    { "id": "P1", "nama": "Kabel Data USB-C 1 m", "kategori": "Elektronik", "toko": "Gadget Store", "rating": 4.8, "harga_coret": 35000, "harga_akhir": 28000, "diskon_persen": 20, "syarat": "Berlaku untuk semua varian, tanpa minimum belanja" },
+    { "id": "P2", "nama": "Kabel Data USB-C 2 m", "kategori": "Elektronik", "toko": "Gadget Store", "rating": 4.7, "harga_coret": 50000, "harga_akhir": 40000, "diskon_persen": 20, "syarat": "Berlaku untuk semua varian, tanpa minimum belanja" },
+    { "id": "P3", "nama": "Charger 20W", "kategori": "Elektronik", "toko": "Gadget Store", "rating": 4.6, "harga_coret": 85000, "harga_akhir": 68000, "diskon_persen": 20, "syarat": "Hanya varian warna putih" },
+    { "id": "P4", "nama": "Kabel Data Lightning 1 m", "kategori": "Elektronik", "toko": "Aksesori Kita", "rating": 4.5, "harga_coret": 60000, "harga_akhir": 54000, "diskon_persen": 10, "syarat": "Berlaku untuk semua varian" },
+    { "id": "P5", "nama": "Botol Minum 1 L", "kategori": "Rumah", "toko": "Rumah Segar", "rating": 4.9, "harga_coret": 45000, "harga_akhir": 36000, "diskon_persen": 20, "syarat": "Stok terbatas" },
+    { "id": "P6", "nama": "Earphone Bluetooth", "kategori": "Elektronik", "toko": "Audio Plus", "rating": 4.4, "harga_coret": 150000, "harga_akhir": 120000, "diskon_persen": 20, "syarat": "Hanya varian hitam" }
+  ],
+  "voucher": [
+    { "id": "V1", "nama": "Gratis Ongkir", "minimum_belanja": 25000, "jenis": "ongkir", "potongan": 10000, "syarat": "Berlaku untuk pengiriman reguler" },
+    { "id": "V2", "nama": "Diskon 10%", "minimum_belanja": 50000, "jenis": "persen", "potongan_persen": 10, "maksimum_potongan": 15000, "syarat": "Maksimal potongan Rp15.000" },
+    { "id": "V3", "nama": "Cashback 5%", "minimum_belanja": 100000, "jenis": "cashback", "potongan_persen": 5, "maksimum_potongan": 20000, "syarat": "Cashback masuk setelah pesanan selesai" }
+  ],
+  "alamat": [
+    { "id": "A1", "label": "Rumah", "alamat": "Jl. Contoh No. 1 (dummy)", "pengiriman_default": "Reguler 2 sampai 3 hari", "ongkir": 10000 }
+  ],
+  "metode_bayar": [
+    { "id": "M1", "nama": "Transfer bank", "selalu_gagal": false },
+    { "id": "M2", "nama": "Dompet digital", "selalu_gagal": true, "pesan_gagal": "Pembayaran gagal: saldo tidak cukup" }
+  ],
+  "pesanan": [
+    { "id": "TKP-001", "status": "Diproses", "tahap_status": ["Diproses", "Dikirim", "Selesai"], "resi": "DUMMY123456", "item": ["P1"], "total": 28000 }
+  ]
+}
